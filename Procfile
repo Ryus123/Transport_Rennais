@@ -1,1 +1,1 @@
-web: gunicorn app:Transport_Rennais
+web: bokeh serve --port=$PORT --allow-websocket-origin=transport-rennais-5d68a8df6e83.herokuapp.com --address=0.0.0.0 --use-xheaders Transport_Rennais.py
