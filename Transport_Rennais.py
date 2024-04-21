@@ -9,7 +9,7 @@
     Usage
     -----
     python -m Transport_Rennais.py (pour lancer le script et avoir la sorti html)
-    ou
+    ou pour la version dynamique
     bokeh serve --show Transport_Rennais.py (pour lancer le serveur en local)
 """
 
