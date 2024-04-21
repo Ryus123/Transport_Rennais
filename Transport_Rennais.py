@@ -22,6 +22,7 @@ from bokeh.io import curdoc
 from bokeh.layouts import column
 from bokeh.plotting import show
 from bokeh.models import Tabs, TabPanel, Div
+from bokeh.client import push_session
 
 from velos import layout_velo
 from carte_metro_bus import layout_carte
