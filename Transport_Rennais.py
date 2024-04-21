@@ -8,9 +8,9 @@
 
     Usage
     -----
-    python -m Transport_Rennais.py 
+    python -m Transport_Rennais.py (pour lancer le script et avoir la sorti html)
     ou
-    bokeh serve --show Transport_Rennais.py (gapminder dynamique)
+    bokeh serve --show Transport_Rennais.py (pour lancer le serveur en local)
 """
 
 __authors__ = ("DELAR Emmarius", "KENANG KENANG Kevin")
