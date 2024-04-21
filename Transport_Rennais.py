@@ -40,7 +40,7 @@ title = Div(text=en_tete)
 # Onglet 1 
 tab1 = TabPanel(child=layout_page_frequentation, title="Frequentation des lignes du reseaux STAR")
 # Onglet 2
-tab2 = TabPanel(child=layout_carte, title="Carte des stations de la ligne a")
+tab2 = TabPanel(child=layout_carte, title="Carte des principales lignes du réseau STAR")
 # Onglet 3 
 tab3 = TabPanel(child=layout_velo, title="Disponibilité des vélos STAR sur Rennes")
 # Onglet 4
@@ -50,8 +50,8 @@ tabs = Tabs(tabs = [tab1, tab2, tab3, tab4])
 
 layout = column(title, tabs)
 
-#show(layout)
-
-#Creation de la page web avec interaction
+#Sortie HTML
+show(layout)
+#Creation du server pour la page web avec interaction
 curdoc().title = "Transport à Rennes métropole"
 curdoc().add_root(layout)

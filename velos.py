@@ -33,7 +33,6 @@ df_velo = pd.DataFrame(data=d)
 
 
 ## Création du diagramme en bar "fusiooné" représentant la proportion des vélos disponibles et la capacité de la station
-#output_file("vélos.html")
 dt_source = ColumnDataSource(df_velo)
 
 p = figure(x_range=df_velo['nom'],  sizing_mode="stretch_width", 
@@ -98,4 +97,3 @@ p.title.text_font_size = "25px"
 p.title.text_font_style = "italic"
 
 layout_velo = column(p, div)  # Disposition des différents éléments
-#show(layout_velo)

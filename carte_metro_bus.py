@@ -167,5 +167,3 @@ layout_carte = layout([ [carte_metro,
                        
                        [commentaire1], 
                        [commentaire2],] )
-
-#show(layout_carte)

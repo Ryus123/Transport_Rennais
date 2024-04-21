@@ -151,7 +151,3 @@ Le bouton [ ■ Stop ] permet d'arrêter l'animation. En survolant un point, vou
 layout_gap = layout([ [commentaire], [gap_plot],
                   [slider, button], ], 
                   sizing_mode='scale_width')
-
-#show(layout_gap)
-#Lancement du server
-#curdoc().add_root(layout_gap)

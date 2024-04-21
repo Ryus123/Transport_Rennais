@@ -119,5 +119,3 @@ layout_frequentation = gridplot([liste_callback, liste_plot],
                                 sizing_mode="stretch_width")
 
 layout_page_frequentation = column(layout_frequentation, div)
-
-#show(layout_page_frequentation)
