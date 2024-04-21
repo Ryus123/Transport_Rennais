@@ -1,5 +1,5 @@
 
-# Dashboard sur le transport rennais avec BOKEH
+# Dashboard sur le transport Rennais avec BOKEH
 ---
 
 Features
@@ -32,10 +32,10 @@ pip install -r requirements.txt
 ---
 
 Le projet est organisé en 5 scripts par soucis de clarté du code : 
-    1. graphique_frequentation.py : Correspond aux graphiques de la 1er page "Frequentation des lignes du réseaux STAR" 
-    2. carte_metro_bus.py : Correspond a la carte de la 2nd page "Carte des principales lignes du réseau STAR" 
-    3. velos.py : Correspond au graphique de la 3e page "Disponibilité des velos STAR sur Rennes" 
-    4. gapminder_chiffre_frequentation.py : Correspond au graphiques dynamique de la 4ème page "Frequentation des lignes du réseau par tranche horaire" 
-    5. Transport_Rennais.py : Correspond au script qui formate la page Bokeh en regroupant l'ensemble des autres scripts.
+1. graphique_frequentation.py : Correspond aux graphiques de la 1er page "Frequentation des lignes du réseaux STAR" 
+2. carte_metro_bus.py : Correspond a la carte de la 2nd page "Carte des principales lignes du réseau STAR" 
+3. velos.py : Correspond au graphique de la 3e page "Disponibilité des velos STAR sur Rennes" 
+4. gapminder_chiffre_frequentation.py : Correspond au graphiques dynamique de la 4ème page "Frequentation des lignes du réseau par tranche horaire" 
+5. Transport_Rennais.py : Correspond au script qui formate la page Bokeh en regroupant l'ensemble des autres scripts.
 
-> **Note** : L'application n'est pas optimisée pour la gestion des sessions utilisateurs, il est donc nécessaire de réexécuter le script dès lors que la connexion initiale est perdue (ex : rafraichissement de la page, fermeture, connexion simultanée, ...).
+**Note** : L'application n'est pas optimisée pour la gestion des sessions utilisateurs, il est donc nécessaire de réexécuter le script dès lors que la connexion initiale est perdue (ex : rafraichissement de la page, fermeture, connexion simultanée, ...).
